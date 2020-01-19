@@ -1,6 +1,7 @@
 package model
 
 type Job struct {
+	ID              string     `json:"id"`
 	Title           string     `json:"title"`
 	City            string     `json:"city"`
 	CountryCode     string     `json:"country_code"`
